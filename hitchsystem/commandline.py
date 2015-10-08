@@ -1,6 +1,6 @@
-"""Command line interface to hitchtest."""
+"""Command line interface to hitchsystem."""
 from click import command, group, argument, option, echo
-from hitchtest.utils import log, warn, signals_trigger_exit, get_hitch_directory
+from hitchsystem.utils import log, warn, signals_trigger_exit, get_hitch_directory
 from os import path
 from sys import exit
 import unixpackage
