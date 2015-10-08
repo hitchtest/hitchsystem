@@ -13,7 +13,7 @@ def read(*parts):
     return codecs.open(os.path.join(os.path.abspath(os.path.dirname(__file__)), *parts), 'r').read()
 
 setup(name="hitchsystem",
-      version="0.1",
+      version="0.1.1",
       description="System package handler for hitchtest.",
       long_description=read('README.rst'),
       classifiers=[
