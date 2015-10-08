@@ -1,0 +1,7 @@
+setup.cfg
+*.kate-swp
+*.pyc
+setup.cfg
+build/
+dist/
+hitchsystem.egg-info/
