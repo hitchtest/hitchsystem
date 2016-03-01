@@ -39,7 +39,15 @@ def _all_required_packages():
     return list(set(
             _specified_system_packages() + \
             _hitchpackage_specified_packages() + \
-            ["python-dev", "python3-dev", "libtool", "automake", "cmake", "rsync", ]
+            [
+                "python-dev",
+                "python3-dev",
+                "libtool",
+                "automake",
+                "cmake",
+                "rsync",
+                "libncurses5-dev",
+            ]
         ))
 
 
