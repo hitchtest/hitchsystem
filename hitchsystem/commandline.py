@@ -47,6 +47,7 @@ def _all_required_packages():
                 "cmake",
                 "rsync",
                 "libncurses5-dev",
+                "aria2",
             ]
         ))
 
