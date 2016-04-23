@@ -48,6 +48,8 @@ def _all_required_packages():
                 "rsync",
                 "libncurses5-dev",
                 "aria2",
+                "libzmq",
+                "g++",
             ]
         ))
 
