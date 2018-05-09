@@ -7,6 +7,7 @@ import unixpackage
 import itertools
 import signal
 import pip
+import pkg_resources
 
 
 def _hitchpackage_specified_packages():
@@ -14,7 +15,7 @@ def _hitchpackage_specified_packages():
 
     # Get a list of all UNIXPACKAGES lists from installed packages starting with 'hitch'
     packages = []
-    for name in [dist.key for dist in pip.get_installed_distributions()]:
+    for name in [dist.key for dist in pkg_resources.working_set]:
         if name.startswith("hitch"):
             module = __import__(name)
 
